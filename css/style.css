@@ -9,6 +9,11 @@
   display: flex;
 }
 
+.main {
+  flex-direction: column;
+  justify-content: center;
+}
+
 /* nav bar */
 
 .nav-bar {
@@ -38,25 +43,39 @@
 
 /* cover section */
 
+.cover {
+  color: #fff;
+}
+
+.cover a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.banner {
+  padding-top: 100px;
+  margin: 65px 5px 5px 5px;
+}
+
 .banner-01{
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     background-image: url(../assets/banner1.jpg);
 }
 
-.gradient-red{
+.gradient-black {
+  background-image: url(../assets/gradient-black.png);
+}
+
+.gradient-red {
     background-image: url(../assets/gradient-red.png);
 }
 
-@media only screen and (max-width: 640px){
+@media only screen and (max-width: 640px) {
     .nav-bar-black,
     .nav-bar-white,
     .gradient-red {
         display: none;
     }
-}
-
-.banner {
-  padding-top: 100px;
-  margin: 65px 4px 4px 4px;
-  background-size: 100% 100%;
 }
