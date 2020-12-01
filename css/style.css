@@ -239,7 +239,7 @@
 .article-img {
   position: relative;
   background-image: url(../assets/hard-fork-01.jpg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   min-height: 490px;
   width: 100%;
