@@ -150,6 +150,78 @@
   padding: 10px;
 }
 
+/* Latst Funding*/
+
+.funding-item {
+  margin-right: 10px;
+  max-width: 100%;
+  position: relative;
+}
+
+.funding-item img {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 10px;
+  left: 10px;
+
+}
+
+.latest-funding {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+
+.latest-funding a {
+  text-decoration: none;
+  color: #FF4422;
+  line-height: 25px;
+}
+
+.fund-title {
+  background-color: #ff4422;
+  color: #fff;
+  padding: 10.6666666667px 16px 10.6666666667px 84px;
+}
+
+.fund-info {
+  background-color: rgba(255,68,34,.08);
+  padding: 10.6666666667px 16px 10.6666666667px 84px;
+  color: #000;
+}
+
+.fund-link {
+  background-color: #fffaf8;
+}
+
+.icon-link {
+  padding: 5px 20px;
+  color: #000;
+}
+
+.icon-link a {
+  margin: 5px;
+  line-height: 10px;
+  color: #000;
+}
+
+.horizontal-line {
+  margin-top: 10px;
+  border-top: 0.5px solid #ff4422;
+  opacity: 25%;
+}
+
+.fund-text {
+  font-family: helvetica;
+  font-size: 12px;
+  padding: 20px;
+}
+
+.fund-text a {
+  color: #ccc;
+}
+
 /* media queries */
 @media only screen and (max-width: 640px) {
     .nav-bar-black,
