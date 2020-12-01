@@ -437,13 +437,24 @@
 }
 
 @media only screen and (min-width: 750px) {
+
+  /* Nav Bar*/
+
+  .fa-bars,
+  .nav-icons a{
+    display: none;
+  }
+
+  /* Cover Section */
   .gradient-red {
     display: none;
   }
 
   .cover {
     display: grid;
-    grid-template: 1fr 1fr / 2fr 1fr;
+    grid-template-areas:
+       'first first second'
+       'first first third';
     grid-gap: 8px;
   }
 
@@ -452,23 +463,14 @@
   }
 
   .banner-01 {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 3;
+    grid-area: first;
   }
 
   .banner-02 {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 2;
+    grid-area: second;
   }
 
   .banner-03 {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
+    grid-area: third;
   }
 }
