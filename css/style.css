@@ -41,7 +41,15 @@
 }
 
 .nav-icons a {
+  text-decoration: none;
+  color: #f42;
   padding: 16px;
+  border-left: #eee solid 1px;
+}
+
+.mag {
+  text-decoration: none;
+  color: #aaa;
 }
 
 /* cover section */
@@ -294,7 +302,7 @@
   flex-direction: column;
 }
 
-.deals{
+.deals {
   display: flex;
   padding: 8px;
 }
@@ -305,19 +313,18 @@
   align-items: baseline;
 }
 
-.all-deals a{
+.all-deals a {
   text-decoration: none;
   color: #f42;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
 }
 
-.all-deals a:hover{
+.all-deals a:hover {
   color: #000;
 }
 
-
-.deals-img a img{
+.deals-img a img {
   width: 75px;
   height: 75px;
 }
@@ -348,6 +355,66 @@
   margin-right: 5px;
 }
 
+/* footer */
+.social-media-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #131313;
+  padding: 2.5rem 0;
+}
+
+.links a {
+  text-decoration: none;
+  color: #aaa;
+  font-family: Shentox, sans-serif;
+}
+
+.links {
+  margin-top: 21px;
+}
+
+.i {
+  color: #fff;
+  background-color: #333;
+  border-radius: 100%;
+  border: solid 2px #333;
+  padding: 10px;
+}
+
+.i:hover {
+  background-color: #000;
+}
+
+.disclaimer {
+  display: flex;
+  justify-content: center;
+  padding: 32px 0;
+  background-color: #000;
+}
+
+.disclaimer p {
+  /* display: block; */
+  color: #aaa;
+  height: 58px;
+  width: 408px;
+  padding: 0 85px;
+  text-align: center;
+}
+
+/* .disclaimer img{
+  height: 9px;
+} */
+
+.stack-logo {
+  text-align: center;
+  height: 20px;
+  width: 70px;
+}
+
+.tnw-logo {
+  height: 9px;
+}
 
 /* media queries */
 @media only screen and (max-width: 750px) {
