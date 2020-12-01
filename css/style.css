@@ -23,6 +23,8 @@
   height: 48px;
   justify-content: space-between;
   background-color: #fff;
+  z-index: 999;
+  box-shadow: 0 1px 10px #ccc;
 }
 
 .logo {
@@ -45,6 +47,8 @@
 
 .cover {
   color: #fff;
+  margin-top: 65px;
+  flex-direction: column;
 }
 
 .cover a {
@@ -53,19 +57,35 @@
 }
 
 .banner {
-  padding-top: 100px;
-  margin: 65px 5px 5px 5px;
+  width: 100%;
+  min-height: 30vh;
+  position: relative;
+  padding-top: 120px;
+  margin: 5px;
+  background-size: cover;
+  background-position: 50%;
+  background-image: url(../assets/banner1.jpg);
 }
 
-.banner-01{
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-image: url(../assets/banner1.jpg);
-}
 
-.gradient-black {
+.cover-gradient-black {
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  position: absolute;
+  background-size: 100% 100%;
+  background-position: center;
   background-image: url(../assets/gradient-black.png);
+  z-index: 1;
+}
+
+.cover-text {
+  display: block;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  z-index: 2;
+  padding: 14px 12px;
 }
 
 .gradient-red {
