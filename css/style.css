@@ -445,6 +445,11 @@
     display: none;
   }
 
+  .nav-bar-black,
+  .nav-bar-white, {
+  border: solid 1px red;
+  }
+
   /* Cover Section */
   .gradient-red {
     display: none;
