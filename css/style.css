@@ -183,7 +183,7 @@
 .cover-text p a {
   margin-top: 10px;
   font-size: 12px;
-  color: hsla(0, 0, 100%, 0.6);
+  color: #aaa;
 }
 
 .gradient-red {
@@ -235,7 +235,7 @@
   padding: 10px;
 }
 
-/* Latst Funding*/
+/* Latst Funding */
 
 .f4 {
   display: none;
@@ -382,7 +382,7 @@
   color: #555;
 }
 
-/* Last Deals*/
+/* Last Deals */
 
 .last-deals {
   display: flex;
@@ -555,7 +555,7 @@
     padding-top: 32px;
   }
 
-  /* Nav Bar*/
+  /* Nav Bar */
 
   .menu {
     display: none;
@@ -596,7 +596,7 @@
     grid-area: third;
   }
 
-  /* Latest News*/
+  /* Latest News */
 
   .latest-news {
     display: grid;
@@ -842,9 +842,8 @@
   }
 
   .deals-text p {
-    margin-top: 5px;
     padding: 2px 0;
-    margin: 0;
+    margin: 5px 0 0 0;
   }
 
   /* footer */
@@ -882,7 +881,7 @@
     margin: 0 auto;
   }
 
-  /* Nav Bar*/
+  /* Nav Bar */
 
   .menu {
     display: none;
@@ -932,7 +931,7 @@
     color: hsla(0, 0%, 100%, 0.6);
   }
 
-  /* Latest News*/
+  /* Latest News */
 
   .latest-news {
     display: grid;
@@ -1067,27 +1066,35 @@
   .r1 {
     grid-area: r1;
   }
+
   .r2 {
     grid-area: r2;
   }
+
   .r3 {
     grid-area: r3;
   }
+
   .r4 {
     grid-area: r4;
   }
+
   .r5 {
     grid-area: r5;
   }
+
   .r6 {
     grid-area: r6;
   }
+
   .r7 {
     grid-area: r7;
   }
+
   .r8 {
     grid-area: r8;
   }
+  
   .r9 {
     grid-area: r9;
   }
@@ -1176,9 +1183,8 @@
   }
 
   .deals-text p {
-    margin-top: 5px;
     padding: 2px 0;
-    margin: 0;
+    margin: 5px 0 0 0;
   }
 
   /* footer */
