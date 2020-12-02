@@ -41,7 +41,7 @@ Visit the live version on the link above.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/jpdf00/Html-and-CSS-2.0-Project-1-Positioning-and-floating-elements/issues).
+Feel free to check the [issues page](https://github.com/jpdf00/Html-and-CSS-2.0-Project-2-Building-with-Responsive-Design/issues).
 
 ## Show your support
 
