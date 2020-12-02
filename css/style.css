@@ -83,7 +83,7 @@
   height: 56px;
   justify-content: space-between;
   background-color: #fff;
-  
+
 }
 
 .logo {
@@ -123,6 +123,7 @@
   color: #fff;
   margin-top: 65px;
   flex-direction: column;
+  padding: 4px;
   padding-bottom: 40px;
 }
 
@@ -507,7 +508,7 @@
   .main{
     padding-top: 32px;
   }
-  
+
   /* Nav Bar*/
 
   .menu {
@@ -542,4 +543,76 @@
   .banner-03 {
     grid-area: third;
   }
+
+  /* Latest News*/
+
+  .latest-news {
+    display: grid;
+    grid-template-areas:
+      'header header header'
+      'n1 n2 n3'
+      'n4 n5 n6'
+      'n7 n8 n9';
+    grid-gap: 4px;
+    padding: 8px
+  }
+
+  .title{
+    grid-area: header;
+  }
+
+  .n1 {
+    grid-area: n1;
+  }
+
+  .n2 {
+    grid-area: n2;
+  }
+
+  .n3 {
+    grid-area: n3;
+  }
+
+  .n4 {
+    grid-area: n4;
+  }
+
+  .n5 {
+    grid-area: n5;
+  }
+
+  .n6 {
+    grid-area: n6;
+  }
+
+  .n7 {
+    grid-area: n7;
+  }
+
+  .n8 {
+    grid-area: n8;
+  }
+
+  .news-article {
+    height: auto;
+    flex-direction: column;
+    padding: 2px;
+  }
+
+  .news-img {
+    width: 100%;
+    min-height: 135px;
+  }
+
+  .news-text {
+    padding: 5px 0;
+    line-height: 0.7;
+  }
+
+  .news-text p{
+    margin-top: 5px;
+    padding: 10px 0;
+    line-height: 0.8;
+  }
+
 }
