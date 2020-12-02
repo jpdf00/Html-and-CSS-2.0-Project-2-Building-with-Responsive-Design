@@ -52,6 +52,7 @@
   justify-content: space-around;
   padding-left: 10px;
 }
+
 .black-bar-left a {
   padding: 5px;
 }
@@ -61,6 +62,7 @@
   justify-content: space-around;
   padding-right: 10px;
 }
+
 .black-bar-right a {
   padding: 5px;
 }
@@ -70,6 +72,7 @@
   justify-content: space-around;
   padding-top: 10px;
 }
+
 .white-bar-links a {
   padding: 5px;
 }
@@ -90,7 +93,7 @@
   align-items: center;
   width: 106px;
   background-position: center;
-  background: black;
+  background-color: #000;
   padding: 20px;
 }
 
@@ -162,11 +165,25 @@
   padding: 14px 12px;
 }
 
+.title a {
+  text-decoration: none;
+  color: #f42;
+  font-size: 28px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  margin: 10px;
+}
+
+.news-text {
+  padding-bottom: 10px;
+  padding-left: 13px;
+}
+
 .cover-text p,
-.cover-text p a{
+.cover-text p a {
   margin-top: 10px;
   font-size: 12px;
-  color: hsla(0,0%,100%,.6);
+  color: hsla(0, 0, 100%, 0.6);
 }
 
 .gradient-red {
@@ -179,22 +196,9 @@
   margin: 0 0 16px;
 }
 
-.title a {
-  text-decoration: none;
-  color: #ff4422;
-  font-size: 28px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: bolder;
-  margin: 10px;
-}
-
-.title a:hover {
-  color: #000;
-}
-
-.news-text {
-  padding-bottom: 10px;
-  padding-left: 13px;
+.news-text p a,
+.news-text p {
+  color: #ccc;
 }
 
 .news-text a {
@@ -203,13 +207,11 @@
   color: #000;
 }
 
-.news-text a:hover {
-  color: #ff4422;
-}
-
-.news-text p a,
-.news-text p {
-  color: #ccc;
+.latest-funding a {
+  text-decoration: none;
+  color: #f42;
+  line-height: 25px;
+  margin: 0;
 }
 
 .latest-news {
@@ -267,15 +269,8 @@
   padding-bottom: 40px;
 }
 
-.latest-funding a {
-  text-decoration: none;
-  color: #ff4422;
-  line-height: 25px;
-  margin: 0;
-}
-
 .fund-title {
-  background-color: #ff4422;
+  background-color: #f42;
   color: #fff;
   padding: 10.6666666667px 16px 10.6666666667px 84px;
 }
@@ -303,12 +298,12 @@
 
 .horizontal-line {
   margin-top: 10px;
-  border-top: 0.5px solid #ff4422;
+  border-top: 0.5px solid #f42;
   opacity: 25%;
 }
 
 .fund-text {
-  font-family: helvetica;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
   padding: 20px;
 }
@@ -352,12 +347,12 @@
 
 .article-title {
   background-color: #fff4f2;
-  color: #ff4422;
+  color: #f42;
   padding: 10px 14px 0;
 }
 
 .article-title a {
-  color: #ff4422;
+  color: #f42;
   text-decoration: none;
   font-weight: bold;
   font-size: 14px;
@@ -372,7 +367,7 @@
 .link-list {
   padding: 6px 0 6px 19px;
   line-height: 1.7;
-  color: #ff4422;
+  color: #f42;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
 }
@@ -445,7 +440,7 @@
   right: 5px;
   font-weight: bold;
   padding-bottom: 8px;
-  font-family: helvetica;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
 }
 
@@ -533,6 +528,14 @@
   height: 9px;
 }
 
+.news-text a:hover {
+  color: #f42;
+}
+
+.title a:hover {
+  color: #000;
+}
+
 /* media queries */
 @media only screen and (max-width: 750px) {
   .nav-bar-black,
@@ -561,7 +564,7 @@
   /* Cover Section */
 
   .gradient-red,
-  .banner-01  a img{
+  .banner-01 a img {
     display: none;
   }
 
@@ -695,9 +698,11 @@
   .f1 {
     grid-area: f1;
   }
+
   .f2 {
     grid-area: f2;
   }
+
   .f3 {
     grid-area: f3;
   }
@@ -719,27 +724,35 @@
   .r1 {
     grid-area: r1;
   }
+
   .r2 {
     grid-area: r2;
   }
+
   .r3 {
     grid-area: r3;
   }
+
   .r4 {
     grid-area: r4;
   }
+
   .r5 {
     grid-area: r5;
   }
+
   .r6 {
     grid-area: r6;
   }
+
   .r7 {
     grid-area: r7;
   }
+
   .r8 {
     grid-area: r8;
   }
+
   .r9 {
     grid-area: r9;
   }
@@ -899,7 +912,7 @@
     display: block;
   }
 
-  .banner-01 a img{
+  .banner-01 a img {
     display: block;
     position: absolute;
     width: auto;
@@ -916,7 +929,7 @@
     justify-content: space-between;
     margin-top: 10px;
     font-size: 12px;
-    color: hsla(0,0%,100%,.6);
+    color: hsla(0, 0%, 100%, 0.6);
   }
 
   /* Latest News*/
@@ -1023,10 +1036,9 @@
     grid-area: links;
   }
 
-  .fund-index-links a{
+  .fund-index-links a {
     margin: 0 10px;
   }
-
 
   .f1 {
     grid-area: f1;
