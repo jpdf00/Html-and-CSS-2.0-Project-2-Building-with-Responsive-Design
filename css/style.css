@@ -328,7 +328,7 @@
   background-image: url(../assets/hard-fork-01.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 490px;
+  min-height: 400px;
   width: 100%;
 }
 
@@ -658,5 +658,51 @@
   }
   .f3{
     grid-area: f3;
+  }
+
+  /* recomended articles */
+
+  .recomended-articles {
+    display: grid;
+    grid-template-areas:
+      'r1 r2'
+      'r3 r4'
+      'r5 r6'
+      'r7 r8'
+      'r9';
+    grid-gap: 20px;
+    padding: 8px;
+  }
+
+  .r1{
+    grid-area: r1;
+  }
+  .r1{
+    grid-area: r2;
+  }
+  .r1{
+    grid-area: r3;
+  }
+  .r1{
+    grid-area: r4;
+  }
+  .r1{
+    grid-area: r5;
+  }
+  .r1{
+    grid-area: r6;
+  }
+  .r1{
+    grid-area: r7;
+  }
+  .r1{
+    grid-area: r8;
+  }
+  .r1{
+    grid-area: r9;
+  }
+
+  .article-img {
+    min-height: 300px;
   }
 }
