@@ -16,7 +16,7 @@
 }
 
 /* nav bar */
-.nav-bar{
+.nav-bar {
   justify-content: space-between;
   box-shadow: 0 1px 10px #ccc;
   background-color: #fff;
@@ -25,17 +25,17 @@
   z-index: 999;
 }
 
-.double-menu{
+.double-menu {
   width: 100%;
   display: flex;
   flex-direction: column;
 }
 
-.double-menu a{
+.double-menu a {
   font-family: sans-serif;
   font-size: 14px;
- text-decoration: none;
- color: #aaa;
+  text-decoration: none;
+  color: #aaa;
 }
 
 .nav-bar-black {
@@ -47,30 +47,30 @@
   background-color: #000;
 }
 
-.black-bar-left{
+.black-bar-left {
   display: flex;
   justify-content: space-around;
   padding-left: 10px;
 }
-.black-bar-left a{
+.black-bar-left a {
   padding: 5px;
 }
 
-.black-bar-right{
+.black-bar-right {
   display: flex;
   justify-content: space-around;
   padding-right: 10px;
 }
-.black-bar-right a{
+.black-bar-right a {
   padding: 5px;
 }
 
-.white-bar-links{
+.white-bar-links {
   display: flex;
   justify-content: space-around;
   padding-top: 10px;
 }
-.white-bar-links a{
+.white-bar-links a {
   padding: 5px;
 }
 
@@ -83,7 +83,6 @@
   height: 56px;
   justify-content: space-between;
   background-color: #fff;
-
 }
 
 .logo {
@@ -229,6 +228,13 @@
 
 /* Latst Funding*/
 
+.fund-index-links{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
 .funding-item {
   margin-right: 10px;
   max-width: 100%;
@@ -254,6 +260,7 @@
   text-decoration: none;
   color: #ff4422;
   line-height: 25px;
+  margin: 0;
 }
 
 .fund-title {
@@ -505,7 +512,7 @@
 }
 
 @media only screen and (min-width: 750px) {
-  .main{
+  .main {
     padding-top: 32px;
   }
 
@@ -549,15 +556,15 @@
   .latest-news {
     display: grid;
     grid-template-areas:
-      'header header header'
-      'n1 n2 n3'
-      'n4 n5 n6'
-      'n7 n8 n9';
+      "header header header"
+      "n1 n2 n3"
+      "n4 n5 n6"
+      "n7 n8 n9";
     grid-gap: 4px;
-    padding: 8px
+    padding: 8px;
   }
 
-  .title{
+  .title {
     grid-area: header;
   }
 
@@ -609,10 +616,47 @@
     line-height: 0.7;
   }
 
-  .news-text p{
+  .news-text p {
     margin-top: 5px;
     padding: 10px 0;
     line-height: 0.8;
   }
 
+  /* Latest funding */
+
+  .fund-index-links{
+    width: 40%;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .link-border{
+    padding: 0 10px;
+    border-left: #f42 solid 1px;
+    border-right: #f42 solid 1px;
+  }
+
+  .latest-funding {
+    display: grid;
+    grid-template-areas:
+      "header header header"
+      "links links links"
+      "f1 f2 f3";
+    grid-gap: 4px;
+    padding: 8px;
+  }
+
+  .fund-index-links{
+    grid-area: links;
+  }
+
+  .f1{
+    grid-area: f1;
+  }
+  .f2{
+    grid-area: f2;
+  }
+  .f3{
+    grid-area: f3;
+  }
 }
