@@ -740,7 +740,7 @@
   .r5 {
     grid-area: r5;
   }
-  
+
   .r6 {
     grid-area: r6;
   }
@@ -1019,8 +1019,8 @@
   .latest-funding {
     display: grid;
     grid-template-areas:
-      'header header links links'
-      'f1 f2 f3 f4';
+      "header header links links"
+      "f1 f2 f3 f4";
     grid-gap: 16px;
     padding: 8px;
   }
