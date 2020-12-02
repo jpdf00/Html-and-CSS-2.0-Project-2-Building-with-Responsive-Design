@@ -6,7 +6,7 @@
 
 ![screenshot](./assets/Screenshot-TNW.jpg)
 
-This is a project in Microverse's HTML and CSS module. It consists of a reproduction of [TheNextWeb](https://thenextweb.com/) homepage. Advertisements and many of the interactive elements have been left out.
+This is a project in Microverse's HTML and CSS module. It consists of a reproduction of [TheNextWeb](https://thenextweb.com/) homepage. We used Responsive Web Design techniques to style the page according to the device is being used. It has 2 breakpoints being style for Mobile Screens, Tablet Screens and Desktop Screens. We also used grid and flexbox techniques so the elements within the page would ajust to changes in the viewport size.
 
 ## Built With
 
@@ -53,4 +53,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](https://opensource.org/licenses/mit-license.php) licensed.
