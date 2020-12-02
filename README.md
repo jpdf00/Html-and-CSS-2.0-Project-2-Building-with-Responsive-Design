@@ -22,6 +22,10 @@ This is a project in Microverse's HTML and CSS module. It consists of a reproduc
 
 Visit the live version on the link above.
 
+To get a local copy up and running follow these simple example steps:
+
+- Download the .zip file to your machine, extract everything and open the index.html file in your browser.
+
 
 ## Authors
 
