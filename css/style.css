@@ -169,7 +169,7 @@
 /* latest news section */
 
 .title {
-  margin: 0 0 24px;
+  margin: 0 0 16px;
 }
 
 .title a {
@@ -951,7 +951,7 @@
     grid-template-areas:
       "header header links links"
       "f1 f2 f3 f4";
-    grid-gap: 4px;
+    grid-gap: 16px;
     padding: 8px;
   }
 
@@ -988,12 +988,10 @@
   .recomended-articles {
     display: grid;
     grid-template-areas:
-      "r1 r2"
-      "r3 r4"
-      "r5 r6"
-      "r7 r8"
-      "r9 r10";
-    grid-gap: 20px;
+      "r1 r2 r3"
+      "r4 r5 r6"
+      "r7 r8 r9";
+    grid-gap: 25px;
     padding: 8px;
   }
 
@@ -1034,10 +1032,9 @@
   .last-deals {
     display: grid;
     grid-template-areas:
-      "header header header"
-      "d1 d2 d3"
-      "d4 d5 d6"
-      "d7 d8 d9";
+      "header header header header"
+      "d1 d2 d3 d4"
+      "d5 d6 d7 d8";
     grid-gap: 20px;
     padding: 8px;
   }
