@@ -162,6 +162,13 @@
   padding: 14px 12px;
 }
 
+.cover-text p,
+.cover-text p a{
+  margin-top: 10px;
+  font-size: 12px;
+  color: hsla(0,0%,100%,.6);
+}
+
 .gradient-red {
   background-image: url(../assets/gradient-red.png);
 }
@@ -530,6 +537,7 @@
 @media only screen and (max-width: 750px) {
   .nav-bar-black,
   .gradient-red,
+  .banner-01 a img,
   .triangle {
     display: none;
   }
@@ -551,8 +559,14 @@
   }
 
   /* Cover Section */
-  .gradient-red {
+
+  .gradient-red,
+  .banner-01  a img{
     display: none;
+  }
+
+  .banner-01 .cover-text h2 {
+    font-size: 5vh;
   }
 
   .cover {
@@ -850,6 +864,11 @@
     padding-top: 32px;
   }
 
+  .wrapper {
+    max-width: 1192px;
+    margin: 0 auto;
+  }
+
   /* Nav Bar*/
 
   .menu {
@@ -861,6 +880,44 @@
   }
 
   /* Cover Section */
+
+  .gradient-red {
+    display: block;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-blend-mode: lighten;
+    z-index: 2;
+    background-position: 0 0;
+    opacity: 0.8;
+  }
+
+  .banner-01 a {
+    display: block;
+  }
+
+  .banner-01 a img{
+    display: block;
+    position: absolute;
+    width: auto;
+    height: 112px;
+    z-index: 3;
+    top: 24px;
+    left: 12px;
+  }
+
+  .banner-01 .cover-text p {
+    width: 30%;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 12px;
+    color: hsla(0,0%,100%,.6);
+  }
 
   /* Latest News*/
 
@@ -969,7 +1026,7 @@
   .fund-index-links a{
     margin: 0 10px;
   }
-  
+
 
   .f1 {
     grid-area: f1;
