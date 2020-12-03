@@ -1,0 +1,6 @@
+{
+    "allowedExtensions":[".less, .sass"],
+    "enableJs": true,
+    "minified": false,
+    "sourceMap": false,
+}
