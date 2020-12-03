@@ -142,7 +142,7 @@
   margin: 5px;
   background-size: cover;
   background-position: 50%;
-  background-image: url(../assets/banner1.jpg);
+  background-image: url(../imgs/banner1.jpg);
 }
 
 .gradient-black {
@@ -152,7 +152,7 @@
   position: absolute;
   background-size: 100% 100%;
   background-position: center;
-  background-image: url(../assets/gradient-black.png);
+  background-image: url(../imgs/gradient-black.png);
   z-index: 1;
 }
 
@@ -179,26 +179,14 @@
   padding-left: 13px;
 }
 
-.cover-text p,
-.cover-text p a {
-  margin-top: 10px;
-  font-size: 12px;
-  color: #aaa;
-}
-
 .gradient-red {
-  background-image: url(../assets/gradient-red.png);
+  background-image: url(../imgs/gradient-red.png);
 }
 
 /* latest news section */
 
 .title {
   margin: 0 0 16px;
-}
-
-.news-text p a,
-.news-text p {
-  color: #ccc;
 }
 
 .news-text a {
@@ -227,7 +215,7 @@
 }
 
 .news-img {
-  background-image: url(../assets/latest01.jpg);
+  background-image: url(../imgs/latest01.jpg);
   background-size: cover;
   background-position: 50%;
   width: 75px;
@@ -331,7 +319,7 @@
 
 .article-img {
   position: relative;
-  background-image: url(../assets/hard-fork-01.jpg);
+  background-image: url(../imgs/hard-fork-01.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 400px;
@@ -409,10 +397,6 @@
   font-size: 12px;
 }
 
-.all-deals a:hover {
-  color: #000;
-}
-
 .deals-img a img {
   width: 75px;
   height: 75px;
@@ -421,7 +405,7 @@
 .triangle {
   width: 80px;
   height: 80px;
-  background-image: url(../assets/triangle.png);
+  background-image: url(../imgs/triangle.png);
   background-position: 100% 0;
   background-repeat: no-repeat;
   background-size: contain;
@@ -455,10 +439,6 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: bolder;
-}
-
-.deals-text a:hover {
-  color: #f42;
 }
 
 .discount {
@@ -526,6 +506,26 @@
 
 .tnw-logo {
   height: 9px;
+}
+
+.cover-text p,
+.cover-text p a {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #aaa;
+}
+
+.news-text p a,
+.news-text p {
+  color: #ccc;
+}
+
+.deals-text a:hover {
+  color: #f42;
+}
+
+.all-deals a:hover {
+  color: #000;
 }
 
 .news-text a:hover {
@@ -673,6 +673,7 @@
     width: 40%;
     flex-direction: row;
     justify-content: space-around;
+    grid-area: links;
   }
 
   .link-border {
@@ -689,10 +690,6 @@
       "f1 f2 f3";
     grid-gap: 4px;
     padding: 8px;
-  }
-
-  .fund-index-links {
-    grid-area: links;
   }
 
   .f1 {
@@ -810,10 +807,6 @@
     grid-area: d9;
   }
 
-  .article-img {
-    min-height: 300px;
-  }
-
   .deals {
     height: auto;
     flex-direction: column;
@@ -921,16 +914,6 @@
     left: 12px;
   }
 
-  .banner-01 .cover-text p {
-    width: 30%;
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-    margin-top: 10px;
-    font-size: 12px;
-    color: hsla(0, 0%, 100%, 0.6);
-  }
-
   /* Latest News */
 
   .latest-news {
@@ -1006,7 +989,9 @@
   .fund-index-links {
     width: 40%;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    width: 100%;
+    grid-area: links;
   }
 
   .link-border {
@@ -1027,12 +1012,6 @@
   .f4 {
     grid-area: f4;
     display: block;
-  }
-
-  .fund-index-links {
-    justify-content: center;
-    width: 100%;
-    grid-area: links;
   }
 
   .fund-index-links a {
@@ -1151,10 +1130,6 @@
     grid-area: d9;
   }
 
-  .article-img {
-    min-height: 300px;
-  }
-
   .deals {
     height: auto;
     flex-direction: column;
@@ -1210,4 +1185,15 @@
     height: 9px;
     width: auto;
   }
+
+  .banner-01 .cover-text p {
+    width: 30%;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 12px;
+    color: hsla(0, 0%, 100%, 0.6);
+  }
+
 }
