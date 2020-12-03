@@ -166,6 +166,15 @@
   bottom: 0;
   z-index: 2;
   padding: 14px 12px;
+  text-decoration: none;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cover-text a {
+  text-decoration: none;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .news-text {
@@ -324,18 +333,6 @@
   background-repeat: no-repeat;
   min-height: 400px;
   width: 100%;
-}
-
-.cover-text {
-  text-decoration: none;
-  color: #fff;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.cover-text a {
-  text-decoration: none;
-  color: #fff;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .article-title {
@@ -541,7 +538,6 @@
 
 /* media queries */
 @media only screen and (max-width: 768px) {
-
   .nav-bar-black,
   .gradient-red,
   .banner-01 a img,
