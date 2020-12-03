@@ -62,30 +62,30 @@
   .flex;
   justify-content: space-around;
   padding-left: 10px;
-}
 
-.black-bar-left a {
-  padding: 5px;
+  a {
+    padding: 5px;
+  }
 }
 
 .black-bar-right {
   .flex;
   justify-content: space-around;
   padding-right: 10px;
-}
 
-.black-bar-right a {
-  padding: 5px;
+  a {
+    padding: 5px;
+  }
 }
 
 .white-bar-links {
   .flex;
   justify-content: space-around;
   padding-top: 10px;
-}
 
-.white-bar-links a {
-  padding: 5px;
+  a {
+    padding: 5px;
+  }
 }
 
 .nav-bar-white {
@@ -106,23 +106,23 @@
   background-position: center;
   background-color: @color-black;
   padding: 20px;
-}
 
-.logo img {
-  display: block;
-  width: 66px;
+  img {
+    display: block;
+    width: 66px;
+  }
 }
 
 .nav-icons {
   .flex;
   align-items: center;
-}
 
-.nav-icons a {
-  text-decoration: none;
-  color: @color-orange;
-  padding: 17px 16px;
-  border-left: #eee solid 1px;
+  a {
+    text-decoration: none;
+    color: @color-orange;
+    padding: 17px 16px;
+    border-left: #eee solid 1px;
+  }
 }
 
 .mag {
@@ -138,11 +138,11 @@
   flex-direction: column;
   padding: 4px;
   padding-bottom: 40px;
-}
 
-.cover a {
-  color: @color-white;
-  text-decoration: none;
+  a {
+    color: @color-white;
+    text-decoration: none;
+  }
 }
 
 .banner {
@@ -176,18 +176,15 @@
   padding: 14px 12px;
 }
 
-.title a {
-  text-decoration: none;
-  color: @color-orange;
-  font-size: 28px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: bolder;
-  margin: 10px;
-}
-
 .news-text {
   padding-bottom: 10px;
   padding-left: 13px;
+
+  a {
+    font-size: 14px;
+    text-decoration: none;
+    color: @color-black;
+  }
 }
 
 .gradient-red {
@@ -198,19 +195,15 @@
 
 .title {
   margin: 0 0 16px;
-}
 
-.news-text a {
-  font-size: 14px;
-  text-decoration: none;
-  color: @color-black;
-}
-
-.latest-funding a {
-  text-decoration: none;
-  color: @color-orange;
-  line-height: 25px;
-  margin: 0;
+  a {
+    text-decoration: none;
+    color: @color-orange;
+    font-size: 28px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    margin: 10px;
+  }
 }
 
 .latest-news {
@@ -251,14 +244,14 @@
   margin-right: 10px;
   max-width: 100%;
   position: relative;
-}
 
-.funding-item img {
-  position: absolute;
-  width: 60px;
-  height: 60px;
-  top: 10px;
-  left: 10px;
+  img {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 10px;
+    left: 10px;
+  }
 }
 
 .latest-funding {
@@ -266,6 +259,13 @@
   flex-direction: column;
   padding-left: 10px;
   padding-bottom: 40px;
+
+  a {
+    text-decoration: none;
+    color: @color-orange;
+    line-height: 25px;
+    margin: 0;
+  }
 }
 
 .fund-title {
@@ -287,13 +287,14 @@
 .icon-link {
   padding: 5px 20px;
   color: @color-black;
+
+  a {
+    margin: 5px;
+    line-height: 10px;
+    color: @color-black;
+  }
 }
 
-.icon-link a {
-  margin: 5px;
-  line-height: 10px;
-  color: @color-black;
-}
 
 .horizontal-line {
   margin-top: 10px;
@@ -305,10 +306,10 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
   padding: 20px;
-}
 
-.fund-text a {
-  color: @color-gray-c;
+  a {
+    color: @color-gray-c;
+  }
 }
 
 /* recommended articles section */
@@ -337,25 +338,30 @@
   width: 100%;
 }
 
-.cover-text,
-.cover-text a {
+.cover-text {
   text-decoration: none;
   color: @color-white;
   font-family: Arial, Helvetica, sans-serif;
+
+  a {
+    text-decoration: none;
+    color: @color-white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
 }
 
 .article-title {
   background-color: #fff4f2;
   color: @color-orange;
   padding: 10px 14px 0;
-}
 
-.article-title a {
-  color: @color-orange;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif;
+  a {
+    color: @color-orange;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
 }
 
 .article-img-small img {
@@ -369,16 +375,16 @@
   color: @color-orange;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
-}
 
-.link-list li {
-  border-bottom: solid 0.5px #ddd;
-  padding: 5px 0;
-}
+  li {
+    border-bottom: solid 0.5px #ddd;
+    padding: 5px 0;
+  }
 
-.link-list a {
-  text-decoration: none;
-  color: #555;
+  a {
+    text-decoration: none;
+    color: #555;
+  }
 }
 
 /* Last Deals */
@@ -423,33 +429,33 @@
   position: absolute;
   top: 0;
   right: 0;
-}
 
-.triangle p {
-  width: 80px;
-  height: 80px;
-  transform: rotate(45deg);
-  display: block;
-  position: absolute;
-  top: 22px;
-  right: 5px;
-  font-weight: bold;
-  padding-bottom: 8px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
+  p {
+    width: 80px;
+    height: 80px;
+    transform: rotate(45deg);
+    display: block;
+    position: absolute;
+    top: 22px;
+    right: 5px;
+    font-weight: bold;
+    padding-bottom: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+  }
 }
 
 .deals-text {
   padding-left: 8px;
-}
 
-.deals-text a {
-  text-decoration: none;
-  line-height: 1.7;
-  color: @color-black;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  font-weight: bolder;
+  a {
+    text-decoration: none;
+    line-height: 1.7;
+    color: @color-black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bolder;
+  }
 }
 
 .discount {
@@ -471,14 +477,14 @@
   padding: 2.5rem 0;
 }
 
-.links a {
-  text-decoration: none;
-  color: @color-gray-a;
-  font-family: Shentox, sans-serif;
-}
-
 .links {
   margin-top: 21px;
+
+  a {
+    text-decoration: none;
+    color: @color-gray-a;
+    font-family: Shentox, sans-serif;
+  }
 }
 
 .i {
@@ -498,15 +504,15 @@
   justify-content: center;
   padding: 32px 0;
   background-color: @color-black;
-}
 
-.disclaimer p {
-  display: block;
-  color: @color-gray-a;
-  height: 58px;
-  width: 400px;
-  padding: 0 85px;
-  text-align: center;
+  p {
+    display: block;
+    color: @color-gray-a;
+    height: 58px;
+    width: 400px;
+    padding: 0 85px;
+    text-align: center;
+  }
 }
 
 .stack-logo {

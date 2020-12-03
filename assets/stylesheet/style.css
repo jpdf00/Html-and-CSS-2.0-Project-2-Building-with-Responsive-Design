@@ -143,17 +143,14 @@
   z-index: 2;
   padding: 14px 12px;
 }
-.title a {
-  text-decoration: none;
-  color: #f42;
-  font-size: 28px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: bolder;
-  margin: 10px;
-}
 .news-text {
   padding-bottom: 10px;
   padding-left: 13px;
+}
+.news-text a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #000;
 }
 .gradient-red {
   background-image: url(../imgs/gradient-red.png);
@@ -162,16 +159,13 @@
 .title {
   margin: 0 0 16px;
 }
-.news-text a {
-  font-size: 14px;
-  text-decoration: none;
-  color: #000;
-}
-.latest-funding a {
+.title a {
   text-decoration: none;
   color: #f42;
-  line-height: 25px;
-  margin: 0;
+  font-size: 28px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  margin: 10px;
 }
 .latest-news {
   display: flex;
@@ -218,6 +212,12 @@
   flex-direction: column;
   padding-left: 10px;
   padding-bottom: 40px;
+}
+.latest-funding a {
+  text-decoration: none;
+  color: #f42;
+  line-height: 25px;
+  margin: 0;
 }
 .fund-title {
   background-color: #f42;
@@ -275,7 +275,11 @@
   min-height: 400px;
   width: 100%;
 }
-.cover-text,
+.cover-text {
+  text-decoration: none;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
 .cover-text a {
   text-decoration: none;
   color: #fff;
@@ -389,13 +393,13 @@
   background-color: #131313;
   padding: 2.5rem 0;
 }
+.links {
+  margin-top: 21px;
+}
 .links a {
   text-decoration: none;
   color: #aaa;
   font-family: Shentox, sans-serif;
-}
-.links {
-  margin-top: 21px;
 }
 .i {
   color: #fff;
