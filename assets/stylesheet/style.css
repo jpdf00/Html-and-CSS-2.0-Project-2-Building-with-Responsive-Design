@@ -545,8 +545,12 @@
     display: none;
   }
 
+  .nav-bar-white {
+    justify-content: flex-end;
+  }
+
   .white-bar-links {
-    visibility: hidden;
+    display: none;
   }
 }
 
