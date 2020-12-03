@@ -21,7 +21,12 @@
   display: flex;
 }
 
+.grid {
+  display: grid;
+}
+
 .main {
+  .flex;
   padding: 0 4px;
   flex-direction: column;
   justify-content: center;
@@ -29,6 +34,7 @@
 
 /* nav bar */
 .nav-bar {
+  .flex;
   justify-content: space-between;
   box-shadow: 0 1px 10px @color-gray-c;
   background-color: @color-white;
@@ -39,7 +45,7 @@
 
 .double-menu {
   width: 100%;
-  display: flex;
+  .flex;
   flex-direction: column;
 }
 
@@ -51,7 +57,7 @@
 }
 
 .nav-bar-black {
-  display: flex;
+  .flex
   top: 0;
   width: 100%;
   height: 32px;
@@ -60,7 +66,7 @@
 }
 
 .black-bar-left {
-  display: flex;
+  .flex
   justify-content: space-around;
   padding-left: 10px;
 }
@@ -70,7 +76,7 @@
 }
 
 .black-bar-right {
-  display: flex;
+  .flex
   justify-content: space-around;
   padding-right: 10px;
 }
@@ -80,7 +86,7 @@
 }
 
 .white-bar-links {
-  display: flex;
+  .flex
   justify-content: space-around;
   padding-top: 10px;
 }
@@ -92,7 +98,7 @@
 .nav-bar-white {
   padding-left: 10px;
   position: sticky;
-  display: flex;
+  .flex
   top: 0;
   width: 100%;
   height: 56px;
@@ -101,7 +107,7 @@
 }
 
 .logo {
-  display: flex;
+  .flex
   align-items: center;
   width: 106px;
   background-position: center;
@@ -115,7 +121,7 @@
 }
 
 .nav-icons {
-  display: flex;
+  .flex
   align-items: center;
 }
 
@@ -215,13 +221,13 @@
 }
 
 .latest-news {
-  display: flex;
+  .flex
   flex-direction: column;
   padding-bottom: 40px;
 }
 
 .news-article {
-  display: flex;
+  .flex
   margin-left: 10px;
   padding-bottom: 10px;
 }
@@ -242,7 +248,7 @@
 }
 
 .fund-index-links {
-  display: flex;
+  .flex
   flex-direction: column;
   justify-content: space-between;
   padding-bottom: 20px;
@@ -263,7 +269,7 @@
 }
 
 .latest-funding {
-  display: flex;
+  .flex
   flex-direction: column;
   padding-left: 10px;
   padding-bottom: 40px;
@@ -315,17 +321,17 @@
 /* recommended articles section */
 
 .recomended-articles {
-  display: flex;
+  .flex
   padding-bottom: 40px;
   flex-direction: column;
 }
 
 .article-latest {
-  display: flex;
+  .flex
 }
 
 .article-link {
-  display: flex;
+  .flex
   flex-direction: column;
 }
 
@@ -385,19 +391,19 @@
 /* Last Deals */
 
 .last-deals {
-  display: flex;
+  .flex
   flex-direction: column;
   padding-bottom: 40px;
 }
 
 .deals {
-  display: flex;
+  .flex
   padding: 8px;
   position: relative;
 }
 
 .deals-title {
-  display: flex;
+  .flex
   justify-content: space-between;
   align-items: baseline;
 }
@@ -465,7 +471,7 @@
 /* footer */
 
 .social-media-section {
-  display: flex;
+  .flex
   flex-direction: column;
   align-items: center;
   background-color: @color-black;
@@ -495,7 +501,7 @@
 }
 
 .disclaimer {
-  display: flex;
+  .flex
   justify-content: center;
   padding: 32px 0;
   background-color: @color-black;
@@ -589,7 +595,7 @@
   }
 
   .cover {
-    display: grid;
+    .grid
     grid-template-areas:
       "first first second"
       "first first third";
@@ -615,7 +621,7 @@
   /* Latest News */
 
   .latest-news {
-    display: grid;
+    .grid
     grid-template-areas:
       "header header header"
       "n1 n2 n3"
@@ -699,7 +705,7 @@
   }
 
   .latest-funding {
-    display: grid;
+    .grid
     grid-template-areas:
       "header header header"
       "links links links"
@@ -723,7 +729,7 @@
   /* recomended articles */
 
   .recomended-articles {
-    display: grid;
+    .grid
     grid-template-areas:
       "r1 r2"
       "r3 r4"
@@ -777,7 +783,7 @@
   /* Latest Deals */
 
   .last-deals {
-    display: grid;
+    .grid
     grid-template-areas:
       "header header header"
       "d1 d2 d3"
@@ -858,7 +864,7 @@
   /* footer */
 
   .disclaimer {
-    display: flex;
+    .flex
     justify-content: center;
     padding: 32px 0;
     background-color: #000;
@@ -933,7 +939,7 @@
   /* Latest News */
 
   .latest-news {
-    display: grid;
+    .grid
     grid-template-areas:
       "header header header header"
       "n1 n2 n3 n4"
@@ -1016,7 +1022,7 @@
   }
 
   .latest-funding {
-    display: grid;
+    .grid
     grid-template-areas:
       "header header links links"
       "f1 f2 f3 f4";
@@ -1048,7 +1054,7 @@
   /* recomended articles */
 
   .recomended-articles {
-    display: grid;
+    .grid
     grid-template-areas:
       "r1 r2 r3"
       "r4 r5 r6"
@@ -1100,7 +1106,7 @@
   /* Latest Deals */
 
   .last-deals {
-    display: grid;
+    .grid
     grid-template-areas:
       "header header header header"
       "d1 d2 d3 d4"
@@ -1180,7 +1186,7 @@
   /* footer */
 
   .disclaimer {
-    display: flex;
+    .flex
     justify-content: center;
     padding: 32px 0;
     background-color: #000;
@@ -1203,7 +1209,7 @@
 
   .banner-01 .cover-text p {
     width: 30%;
-    display: flex;
+    .flex
     align-items: baseline;
     justify-content: space-between;
     margin-top: 10px;
