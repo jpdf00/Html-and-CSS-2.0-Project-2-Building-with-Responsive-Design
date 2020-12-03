@@ -7,6 +7,9 @@
 .flex {
   display: flex;
 }
+.grid {
+  display: grid;
+}
 .main {
   padding: 0 4px;
   flex-direction: column;
