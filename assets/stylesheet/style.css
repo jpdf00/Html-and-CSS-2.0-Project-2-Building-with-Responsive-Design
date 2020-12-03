@@ -988,7 +988,7 @@
 
   .fund-index-links {
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-end;
     width: 100%;
     grid-area: links;
   }
