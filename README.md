@@ -4,7 +4,7 @@
 
 > HTML & CSS 2.0 - Project 2: Building with Responsive Design
 
-![screenshot](./assets/Screenshot-TNW.jpg)
+![screenshot](./assets/imgs/Screenshot-TNW.jpg)
 
 This is a project in Microverse's HTML and CSS module. It consists of a reproduction of [TheNextWeb](https://thenextweb.com/) homepage. We used Responsive Web Design techniques to style the page according to the device is being used. It has 2 breakpoints being style for Mobile Screens, Tablet Screens and Desktop Screens. We also used grid and flexbox techniques so the elements within the page would ajust to changes in the viewport size.
 
