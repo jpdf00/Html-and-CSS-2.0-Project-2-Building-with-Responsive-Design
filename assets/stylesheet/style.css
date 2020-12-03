@@ -537,7 +537,7 @@
 }
 
 /* media queries */
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 768px) {
   .nav-bar-black,
   .gradient-red,
   .banner-01 a img,
@@ -554,7 +554,7 @@
   }
 }
 
-@media only screen and (min-width: 750px) {
+@media only screen and (min-width: 768px) {
   .main {
     padding-top: 32px;
   }
