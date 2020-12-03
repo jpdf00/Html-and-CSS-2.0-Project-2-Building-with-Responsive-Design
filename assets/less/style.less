@@ -1,5 +1,9 @@
 /* general utilities */
 @color-gray-c: #ccc;
+@color-white: #fff;
+@color-gray-a: #aaa;
+@color-black: #000;
+@color-orange: #f42;
 
 
 * {
@@ -26,7 +30,7 @@
 .nav-bar {
   justify-content: space-between;
   box-shadow: 0 1px 10px @color-gray-c;
-  background-color: #fff;
+  background-color: @color-white;
   width: 100%;
   position: fixed;
   z-index: 999;
@@ -41,7 +45,7 @@
     font-family: sans-serif;
     font-size: 14px;
     text-decoration: none;
-    color: #aaa;
+    color: @color-gray-a;
   }
 }
 
@@ -51,7 +55,7 @@
   width: 100%;
   height: 32px;
   justify-content: space-between;
-  background-color: #000;
+  background-color: @color-black;
 }
 
 .black-bar-left {
@@ -92,7 +96,7 @@
   width: 100%;
   height: 56px;
   justify-content: space-between;
-  background-color: #fff;
+  background-color: @color-white;
 }
 
 .logo {
@@ -100,7 +104,7 @@
   align-items: center;
   width: 106px;
   background-position: center;
-  background-color: #000;
+  background-color: @color-black;
   padding: 20px;
 }
 
@@ -116,20 +120,20 @@
 
 .nav-icons a {
   text-decoration: none;
-  color: #f42;
+  color: @color-orange;
   padding: 17px 16px;
   border-left: #eee solid 1px;
 }
 
 .mag {
   text-decoration: none;
-  color: #aaa;
+  color: @color-gray-a;
 }
 
 /* cover section */
 
 .cover {
-  color: #fff;
+  color: @color-white;
   margin-top: 65px;
   flex-direction: column;
   padding: 4px;
@@ -137,7 +141,7 @@
 }
 
 .cover a {
-  color: #fff;
+  color: @color-white;
   text-decoration: none;
 }
 
@@ -174,7 +178,7 @@
 
 .title a {
   text-decoration: none;
-  color: #f42;
+  color: @color-orange;
   font-size: 28px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: bolder;
@@ -199,12 +203,12 @@
 .news-text a {
   font-size: 14px;
   text-decoration: none;
-  color: #000;
+  color: @color-black;
 }
 
 .latest-funding a {
   text-decoration: none;
-  color: #f42;
+  color: @color-orange;
   line-height: 25px;
   margin: 0;
 }
@@ -265,15 +269,15 @@
 }
 
 .fund-title {
-  background-color: #f42;
-  color: #fff;
+  background-color: @color-orange;
+  color: @color-white;
   padding: 10.6666666667px 16px 10.6666666667px 84px;
 }
 
 .fund-info {
   background-color: rgba(255, 68, 34, 0.08);
   padding: 10.6666666667px 16px 10.6666666667px 84px;
-  color: #000;
+  color: @color-black;
 }
 
 .fund-link {
@@ -282,18 +286,18 @@
 
 .icon-link {
   padding: 5px 20px;
-  color: #000;
+  color: @color-black;
 }
 
 .icon-link a {
   margin: 5px;
   line-height: 10px;
-  color: #000;
+  color: @color-black;
 }
 
 .horizontal-line {
   margin-top: 10px;
-  border-top: 0.5px solid #f42;
+  border-top: 0.5px solid @color-orange;
   opacity: 25%;
 }
 
@@ -336,18 +340,18 @@
 .cover-text,
 .cover-text a {
   text-decoration: none;
-  color: #fff;
+  color: @color-white;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .article-title {
   background-color: #fff4f2;
-  color: #f42;
+  color: @color-orange;
   padding: 10px 14px 0;
 }
 
 .article-title a {
-  color: #f42;
+  color: @color-orange;
   text-decoration: none;
   font-weight: bold;
   font-size: 14px;
@@ -362,7 +366,7 @@
 .link-list {
   padding: 6px 0 6px 19px;
   line-height: 1.7;
-  color: #f42;
+  color: @color-orange;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
 }
@@ -399,7 +403,7 @@
 
 .all-deals a {
   text-decoration: none;
-  color: #f42;
+  color: @color-orange;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
 }
@@ -442,7 +446,7 @@
 .deals-text a {
   text-decoration: none;
   line-height: 1.7;
-  color: #000;
+  color: @color-black;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: bolder;
@@ -469,7 +473,7 @@
 
 .links a {
   text-decoration: none;
-  color: #aaa;
+  color: @color-gray-a;
   font-family: Shentox, sans-serif;
 }
 
@@ -478,7 +482,7 @@
 }
 
 .i {
-  color: #fff;
+  color: @color-white;
   background-color: #333;
   border-radius: 100%;
   border: solid 2px #333;
@@ -486,19 +490,19 @@
 }
 
 .i:hover {
-  background-color: #000;
+  background-color: @color-black;
 }
 
 .disclaimer {
   .flex;
   justify-content: center;
   padding: 32px 0;
-  background-color: #000;
+  background-color: @color-black;
 }
 
 .disclaimer p {
   display: block;
-  color: #aaa;
+  color: @color-gray-a;
   height: 58px;
   width: 400px;
   padding: 0 85px;
@@ -519,7 +523,7 @@
 .cover-text p a {
   margin-top: 10px;
   font-size: 12px;
-  color: #aaa;
+  color: @color-gray-a;
 }
 
 .news-text p a,
@@ -528,19 +532,19 @@
 }
 
 .deals-text a:hover {
-  color: #f42;
+  color: @color-orange;
 }
 
 .all-deals a:hover {
-  color: #000;
+  color: @color-black;
 }
 
 .news-text a:hover {
-  color: #f42;
+  color: @color-orange;
 }
 
 .title a:hover {
-  color: #000;
+  color: @color-black;
 }
 
 /* media queries */
@@ -689,8 +693,8 @@
 
   .link-border {
     padding: 0 10px;
-    border-left: #f42 solid 1px;
-    border-right: #f42 solid 1px;
+    border-left: @color-orange solid 1px;
+    border-right: @color-orange solid 1px;
   }
 
   .latest-funding {
@@ -856,12 +860,12 @@
     .flex;
     justify-content: center;
     padding: 32px 0;
-    background-color: #000;
+    background-color: @color-black;
   }
 
   .disclaimer p {
     display: block;
-    color: #aaa;
+    color: @color-gray-a;
     height: 58px;
     width: 100%;
     padding: 0 85px;
@@ -1006,8 +1010,8 @@
 
   .link-border {
     padding: 0 18px;
-    border-left: #f42 solid 1px;
-    border-right: #f42 solid 1px;
+    border-left: @color-orange solid 1px;
+    border-right: @color-orange solid 1px;
   }
 
   .latest-funding {
@@ -1178,12 +1182,12 @@
     .flex;
     justify-content: center;
     padding: 32px 0;
-    background-color: #000;
+    background-color: @color-black;
   }
 
   .disclaimer p {
     display: block;
-    color: #aaa;
+    color: @color-gray-a;
     height: 58px;
     width: 100%;
     padding: 0 85px;
