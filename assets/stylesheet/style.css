@@ -987,7 +987,6 @@
   /* Latest funding */
 
   .fund-index-links {
-    width: 40%;
     flex-direction: row;
     justify-content: center;
     width: 100%;
@@ -1195,5 +1194,4 @@
     font-size: 12px;
     color: hsla(0, 0%, 100%, 0.6);
   }
-
 }
