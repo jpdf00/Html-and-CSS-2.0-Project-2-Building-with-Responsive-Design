@@ -67,7 +67,7 @@
 }
 .nav-bar-white {
   padding-left: 10px;
-  position: sticky;
+  position: fixed;
   display: flex;
   top: 0;
   width: 100%;
