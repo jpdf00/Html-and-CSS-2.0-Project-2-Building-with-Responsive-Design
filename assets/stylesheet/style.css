@@ -843,6 +843,10 @@
     margin: 5px 0 0 0;
   }
 
+  .triangle{
+    display: block;
+  }
+
   /* footer */
 
   .disclaimer {
