@@ -403,6 +403,7 @@
 }
 
 .triangle {
+  display: none;
   width: 80px;
   height: 80px;
   background-image: url(../imgs/triangle.png);
@@ -540,8 +541,7 @@
 @media only screen and (max-width: 768px) {
   .nav-bar-black,
   .gradient-red,
-  .banner-01 a img,
-  .triangle {
+  .banner-01 a img {
     display: none;
   }
 
